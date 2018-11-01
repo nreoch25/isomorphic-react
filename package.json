@@ -5,7 +5,7 @@
   "license": "MIT",
   "scripts": {
     "build": "webpack --config webpack.config.dev.babel.js",
-    "dev": "cross-env NODE_ENV=development babel-node server/index.jsx --useLiveData=true"
+    "start:dev": "cross-env NODE_ENV=development babel-node server/index.jsx --useLiveData=true"
   },
   "devDependencies": {
     "babel-cli": "6.26.0",
@@ -25,7 +25,12 @@
     "express": "^4.16.4",
     "express-yields": "^1.1.2",
     "fs-extra": "^7.0.0",
+    "lodash": "^4.17.11",
     "optimist": "^0.6.1",
+    "react": "^16.6.0",
+    "react-dom": "^16.6.0",
+    "react-redux": "^5.1.0",
+    "redux": "^4.0.1",
     "redux-saga": "^0.16.2",
     "request": "^2.88.0",
     "request-promise": "^4.2.2"
